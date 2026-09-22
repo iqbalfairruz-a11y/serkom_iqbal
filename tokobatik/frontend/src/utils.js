@@ -6,7 +6,7 @@ import { KELAMIN } from './constants';
 export const TOKEN_KEY = 'toko_token';
 export const ROLE_KEY = 'toko_role';
 export const USER_KEY = 'toko_user';
-export const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+export const API_BASE = 'https://serkomiqbal-production.up.railway.app';
 
 const EMPTY_MEDIA = new Set(['', 'null', 'undefined', 'default.jpg', 'default-logo.jpg']);
 
